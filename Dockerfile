@@ -1,2 +1,3 @@
-FROM gliderlabs/alpine
-RUN apk-install bash
+FROM alpine
+MAINTAINER Benedikt Lang <mail@blang.io>
+RUN apk add --no-cache bash
